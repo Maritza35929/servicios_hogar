@@ -1,0 +1,11 @@
+<h3>Crear Servicio</h3>
+
+<%= form_with model: @servicio do |form| %>
+
+  <%= form.text_field :profesional, placeholder: "profesional" %>
+
+  <%= form.text_field :descripcion, placeholder: "descripcion" %>
+
+  <%= form.submit %>
+
+<% end %>
