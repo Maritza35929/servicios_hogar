@@ -1,0 +1,9 @@
+<h3>crear Profesional</h3>
+<%= form_with model: @professional do |form| %>
+  <%= form.text_field :nombre, placeholder: "nombre" %>
+  <%= form.text_field :telefono, placeholder: "telefono" %>
+  <%= form.text_field :profesion_u_oficio, placeholder: "profesion_u_oficio" %>
+  <%= form.text_field :servicios_ofrecidos, placeholder: "servicios_ofrecidos" %>
+
+  <%= form.submit %>
+<% end %>
