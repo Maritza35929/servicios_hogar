@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :clientes
  resources :professionals
  resources :servicios
  root to: "home#index"
