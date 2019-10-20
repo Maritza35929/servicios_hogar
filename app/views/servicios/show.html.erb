@@ -1,0 +1,6 @@
+
+<h1><%= @servicio.profesional %></h1>
+
+<h4><%= @servicio.descripcion %></h4>
+
+<%= link_to "remove", @servicio, method: :delete, data: {confirm: 'Are yoy sure?'} %>

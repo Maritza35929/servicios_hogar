@@ -1,0 +1,8 @@
+<ul>
+  <% @servicios.each do |servicio| %>
+
+   <li><%= link_to servicio.profesional, servicio_path(servicio) %></li>
+
+  <% end %>
+
+</ul>
