@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
 Professional.create(nombre: 'Alex Rodriguez', telefono: 7235418, profesion_u_oficio: 'plomero', servicios_ofrecidos: 'Construcción, Plomería, gas')
 Professional.create(nombre: 'William Reyes', telefono: 3412178, profesion_u_oficio: 'Electricista, Pintor, Plomero', servicios_ofrecidos: 'Construcción, Electricidad, Plomería')
 Professional.create(nombre: 'Alfredo Arrieta', telefono: 5248792, profesion_u_oficio: 'Plomero', servicios_ofrecidos: 'Construcción, Electricidad, Plomería')
@@ -17,3 +18,12 @@ Professional.create(nombre: 'José Palomino', telefono: 7457823, profesion_u_ofi
 Professional.create(nombre: 'Henry Alzate', telefono: 5214689, profesion_u_oficio: 'Carpintero', servicios_ofrecidos: 'Carpintero, Construcción, Mantenimiento')
 Professional.create(nombre: 'Pablo Contreras', telefono: 2013544, profesion_u_oficio: 'Electricista, pintor', servicios_ofrecidos: 'Construcción, Electricidad, Mantenimiento')
 Professional.create(nombre: 'Jesus Vargas', telefono: 2135487, profesion_u_oficio: 'plomero', servicios_ofrecidos: 'Construcción, Electricidad, Plomerìa, gas')
+
+Servicio.create(profesional: 'Plomero', descripcion: 'Técnicos en Instalación y Mantenimiento de Redes Hidráulicas y Sanitarias ')
+Servicio.create(profesional: 'Gas', descripcion: 'Servicio tecnico especializado en gasodomesticos')
+Servicio.create(profesional: 'Limpieza', descripcion: 'Servicios especializados en limpieza')
+Servicio.create(profesional: 'Electricista', descripcion: 'Técnicos especializados en redes e instalaciones electricas')
+Servicio.create(profesional: 'Carpintero', descripcion: 'Carpinteros especializados en fabricación y reparación de todo tipo de muebles')
+Servicio.create(profesional: 'Cerrajero', descripcion: 'Profesionales capacitados en seguridad manual y sistemas electronicos para hogares y empresas')
+Servicio.create(profesional: 'Pintor', descripcion: 'profesionales en pintura, remodelaciones y acabados')
+
