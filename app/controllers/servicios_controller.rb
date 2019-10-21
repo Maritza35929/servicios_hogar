@@ -36,7 +36,7 @@ class ServiciosController < ApplicationController
 
     redirect_to servicios_path
   end
-  
+
   private
 
   def servicio_params
